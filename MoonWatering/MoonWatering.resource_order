@@ -18,10 +18,13 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_moon_orbit","order":3,"path":"objects/obj_moon_orbit/obj_moon_orbit.yy",},
+    {"name":"_test_spr6","order":5,"path":"sprites/_test_spr6/_test_spr6.yy",},
     {"name":"obj_ground","order":2,"path":"objects/obj_ground/obj_ground.yy",},
     {"name":"_test_spr4","order":3,"path":"sprites/_test_spr4/_test_spr4.yy",},
+    {"name":"obj_cloud","order":5,"path":"objects/obj_cloud/obj_cloud.yy",},
     {"name":"_test_spr2","order":1,"path":"sprites/_test_spr2/_test_spr2.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_cloud_spawner","order":6,"path":"objects/obj_cloud_spawner/obj_cloud_spawner.yy",},
     {"name":"_test_spr5","order":4,"path":"sprites/_test_spr5/_test_spr5.yy",},
     {"name":"_test_spr3","order":2,"path":"sprites/_test_spr3/_test_spr3.yy",},
     {"name":"obj_water_drop","order":4,"path":"objects/obj_water_drop/obj_water_drop.yy",},
