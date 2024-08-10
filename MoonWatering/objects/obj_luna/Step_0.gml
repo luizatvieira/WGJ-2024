@@ -24,3 +24,5 @@ if ( x >= room_width + sprite_width/2)
 	x = 0;
 	y = room_height/5;
 }
+
+image_xscale = x_scale * sign(x - obj_player.x);
