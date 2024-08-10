@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Valentina",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-  ],
+  "name": "obj_ground",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_test_spr3",
-    "path": "sprites/_test_spr3/_test_spr3.yy",
+    "name": "_test_spr2",
+    "path": "sprites/_test_spr2/_test_spr2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
