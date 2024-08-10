@@ -21,8 +21,9 @@
     {"name":"obj_ground","order":2,"path":"objects/obj_ground/obj_ground.yy",},
     {"name":"_test_spr4","order":3,"path":"sprites/_test_spr4/_test_spr4.yy",},
     {"name":"_test_spr2","order":1,"path":"sprites/_test_spr2/_test_spr2.yy",},
-    {"name":"Sprite4","order":16,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"_test_spr5","order":4,"path":"sprites/_test_spr5/_test_spr5.yy",},
     {"name":"_test_spr3","order":2,"path":"sprites/_test_spr3/_test_spr3.yy",},
+    {"name":"obj_water_drop","order":4,"path":"objects/obj_water_drop/obj_water_drop.yy",},
   ],
 }
