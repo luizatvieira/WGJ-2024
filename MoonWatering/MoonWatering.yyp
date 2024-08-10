@@ -34,10 +34,14 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"mn_idle_spr","path":"sprites/mn_idle_spr/mn_idle_spr.yy",},},
     {"id":{"name":"cf_walk_spr","path":"sprites/cf_walk_spr/cf_walk_spr.yy",},},
+    {"id":{"name":"mn_looking_spr","path":"sprites/mn_looking_spr/mn_looking_spr.yy",},},
+    {"id":{"name":"mn_kissing_spr","path":"sprites/mn_kissing_spr/mn_kissing_spr.yy",},},
     {"id":{"name":"cf_jump_spr","path":"sprites/cf_jump_spr/cf_jump_spr.yy",},},
     {"id":{"name":"cf_fall_spr","path":"sprites/cf_fall_spr/cf_fall_spr.yy",},},
     {"id":{"name":"cf_idle_spr","path":"sprites/cf_idle_spr/cf_idle_spr.yy",},},
+    {"id":{"name":"mn_winking_spr","path":"sprites/mn_winking_spr/mn_winking_spr.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

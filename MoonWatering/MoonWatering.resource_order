@@ -17,8 +17,12 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"mn_idle_spr","order":7,"path":"sprites/mn_idle_spr/mn_idle_spr.yy",},
     {"name":"cf_walk_spr","order":1,"path":"sprites/cf_walk_spr/cf_walk_spr.yy",},
+    {"name":"mn_looking_spr","order":4,"path":"sprites/mn_looking_spr/mn_looking_spr.yy",},
+    {"name":"mn_kissing_spr","order":6,"path":"sprites/mn_kissing_spr/mn_kissing_spr.yy",},
     {"name":"cf_jump_spr","order":2,"path":"sprites/cf_jump_spr/cf_jump_spr.yy",},
     {"name":"cf_fall_spr","order":3,"path":"sprites/cf_fall_spr/cf_fall_spr.yy",},
+    {"name":"mn_winking_spr","order":5,"path":"sprites/mn_winking_spr/mn_winking_spr.yy",},
   ],
 }
