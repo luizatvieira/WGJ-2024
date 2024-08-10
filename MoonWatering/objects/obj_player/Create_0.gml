@@ -2,9 +2,10 @@
 // Você pode escrever seu código neste editor
 move_speed = 4;
 jump_speed = 16;
+fall_speed = 1;
 
 watering_layer = "WateringLayer"
-start_watering_cooldown = 10;
+start_watering_cooldown = 5;
 watering_cooldown = start_watering_cooldown;
 
 move_x = 0;

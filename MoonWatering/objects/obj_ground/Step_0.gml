@@ -1,1 +1,1 @@
-image_angle = image_angle + rotation_speed;
+current_rotation += rotation_speed;

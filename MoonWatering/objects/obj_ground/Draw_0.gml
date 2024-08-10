@@ -1,0 +1,1 @@
+draw_sprite_ext( sprite, -1, x, y, image_xscale, image_yscale, current_rotation, c_white, 1);
