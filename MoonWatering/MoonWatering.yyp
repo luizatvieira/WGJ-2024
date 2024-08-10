@@ -34,6 +34,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_invisible_wall","path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},},
     {"id":{"name":"_test_spr1","path":"sprites/_test_spr1/_test_spr1.yy",},},
     {"id":{"name":"obj_moon_orbit","path":"objects/obj_moon_orbit/obj_moon_orbit.yy",},},
     {"id":{"name":"_test_spr6","path":"sprites/_test_spr6/_test_spr6.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"_test_spr3","path":"sprites/_test_spr3/_test_spr3.yy",},},
     {"id":{"name":"obj_luna","path":"objects/obj_luna/obj_luna.yy",},},
     {"id":{"name":"obj_water_drop","path":"objects/obj_water_drop/obj_water_drop.yy",},},
+    {"id":{"name":"sprite_invisible_wall","path":"sprites/sprite_invisible_wall/sprite_invisible_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
