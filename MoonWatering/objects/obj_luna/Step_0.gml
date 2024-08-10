@@ -19,8 +19,8 @@ else if (move_y < 10) move_y += fall_speed;
 
 move_and_collide(move_x, move_y, obj_moon_orbit, 4, 0, 0, move_speed, -1);
 
-
-
-
-
-
+if ( x >= room_width + sprite_width/2)
+{
+	x = 0;
+	y = room_height/5;
+}
