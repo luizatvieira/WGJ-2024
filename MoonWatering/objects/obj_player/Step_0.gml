@@ -7,6 +7,11 @@ var _jump = keyboard_check(vk_up) or keyboard_check(ord("W"));
 move_x = _right - _left;
 move_x *= move_speed;
 
+if (place_meeting(x+move_x, y, obj_invisible_wall))
+{
+	move_x = 0;
+}
+
 if (place_meeting(x, y+move_speed, obj_ground) || place_meeting(x, y+move_speed, obj_cloud))
 {
 	move_y = 0;

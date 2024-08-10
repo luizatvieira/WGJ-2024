@@ -17,6 +17,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_invisible_wall","order":7,"path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},
     {"name":"obj_moon_orbit","order":3,"path":"objects/obj_moon_orbit/obj_moon_orbit.yy",},
     {"name":"_test_spr6","order":5,"path":"sprites/_test_spr6/_test_spr6.yy",},
     {"name":"obj_ground","order":2,"path":"objects/obj_ground/obj_ground.yy",},
@@ -28,5 +29,6 @@
     {"name":"_test_spr5","order":4,"path":"sprites/_test_spr5/_test_spr5.yy",},
     {"name":"_test_spr3","order":2,"path":"sprites/_test_spr3/_test_spr3.yy",},
     {"name":"obj_water_drop","order":4,"path":"objects/obj_water_drop/obj_water_drop.yy",},
+    {"name":"sprite_invisible_wall","order":6,"path":"sprites/sprite_invisible_wall/sprite_invisible_wall.yy",},
   ],
 }
