@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "cf_walk_spr",
   "bbox_bottom": 127,
-  "bbox_left": 16,
+  "bbox_left": 15,
   "bbox_right": 189,
   "bbox_top": 3,
   "bboxMode": 0,
