@@ -35,6 +35,8 @@
   },
   "resources": [
     {"id":{"name":"cf_walk_spr","path":"sprites/cf_walk_spr/cf_walk_spr.yy",},},
+    {"id":{"name":"cf_jump_spr","path":"sprites/cf_jump_spr/cf_jump_spr.yy",},},
+    {"id":{"name":"cf_fall_spr","path":"sprites/cf_fall_spr/cf_fall_spr.yy",},},
     {"id":{"name":"cf_idle_spr","path":"sprites/cf_idle_spr/cf_idle_spr.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

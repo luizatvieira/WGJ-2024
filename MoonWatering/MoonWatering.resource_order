@@ -18,5 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"cf_walk_spr","order":1,"path":"sprites/cf_walk_spr/cf_walk_spr.yy",},
+    {"name":"cf_jump_spr","order":2,"path":"sprites/cf_jump_spr/cf_jump_spr.yy",},
+    {"name":"cf_fall_spr","order":3,"path":"sprites/cf_fall_spr/cf_fall_spr.yy",},
   ],
 }
