@@ -25,4 +25,6 @@ if ( x >= room_width + sprite_width/2)
 	y = room_height/5;
 }
 
-image_xscale = x_scale * sign(x - obj_player.x);
+var _player_distance = x - obj_player.x;
+if ( _player_distance != 0 )
+	image_xscale = x_scale * sign(_player_distance);
