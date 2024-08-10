@@ -39,10 +39,11 @@
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},},
     {"id":{"name":"_test_spr4","path":"sprites/_test_spr4/_test_spr4.yy",},},
     {"id":{"name":"_test_spr2","path":"sprites/_test_spr2/_test_spr2.yy",},},
-    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"_test_spr5","path":"sprites/_test_spr5/_test_spr5.yy",},},
     {"id":{"name":"_test_spr3","path":"sprites/_test_spr3/_test_spr3.yy",},},
     {"id":{"name":"obj_luna","path":"objects/obj_luna/obj_luna.yy",},},
+    {"id":{"name":"obj_water_drop","path":"objects/obj_water_drop/obj_water_drop.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

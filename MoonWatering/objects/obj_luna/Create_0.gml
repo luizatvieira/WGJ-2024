@@ -9,3 +9,4 @@ x_scale = image_xscale;
 move_x = 0;
 move_y = 0;
 
+watering_percent = 0;
