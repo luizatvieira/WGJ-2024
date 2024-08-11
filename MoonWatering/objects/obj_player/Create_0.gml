@@ -11,7 +11,6 @@ watering_layer = "WateringLayer"
 start_watering_cooldown = 15;
 watering_cooldown = start_watering_cooldown;
 
-
 // Animation
 is_falling = false;
 is_walking = false;
@@ -23,6 +22,7 @@ jump_sprite = cf_jump_spr;
 fall_sprite = cf_fall_spr;
 
 sprite = idle_sprite;
+sprite_color = c_white;
 
 // Sound Effects
 walking_sfx = [stepping_sfx_00, stepping_sfx_01, stepping_sfx_02];

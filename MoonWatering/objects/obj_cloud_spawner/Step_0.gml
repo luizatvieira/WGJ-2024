@@ -1,5 +1,5 @@
 //Watering
-if ( spawn_cooldown < 1 )
+if ( spawn_cooldown < 1 and obj_luna.watering_percent != 100 )
 {
 	var _random_spawn_chance = random(100) > 80;
 	if ( _random_spawn_chance )
