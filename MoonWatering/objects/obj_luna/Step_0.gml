@@ -7,12 +7,15 @@ function move_moon ( _obj )
 		// Moving down slopes
 		if (!place_meeting(x+move_x, y+2, _obj) && place_meeting(x+move_x, y+10, _obj))
 		{
-				move_y = abs(move_x);
+			move_y = abs(move_x);
 		}
 	
 		var _jump = random(100) > 80;
 		if (_jump)
+		{
+			y = y - 20;
 			move_y = -jump_speed;
+		}
 	}
 	else if (move_y < 10) move_y += fall_speed;
 
@@ -25,8 +28,16 @@ function move_moon ( _obj )
 	}
 }
 
+
 move_x = move_speed;
-move_moon( [obj_ground, obj_moon_orbit] );
+if ( watering_percent == 100 )
+{
+	move_moon( [obj_ground] );
+}
+else
+{
+	move_moon( [obj_ground, obj_moon_orbit] );
+}
 
 if ( instance_exists(obj_player) )
 {

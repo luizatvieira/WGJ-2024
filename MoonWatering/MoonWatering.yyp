@@ -92,6 +92,7 @@
     {"id":{"name":"cf_rolling_spr","path":"sprites/cf_rolling_spr/cf_rolling_spr.yy",},},
     {"id":{"name":"cf_fall_spr","path":"sprites/cf_fall_spr/cf_fall_spr.yy",},},
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
+    {"id":{"name":"mn_mask","path":"sprites/mn_mask/mn_mask.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
     {"id":{"name":"cf_idle_spr","path":"sprites/cf_idle_spr/cf_idle_spr.yy",},},
     {"id":{"name":"mn_winking_spr","path":"sprites/mn_winking_spr/mn_winking_spr.yy",},},

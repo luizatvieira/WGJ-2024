@@ -71,6 +71,7 @@
     {"name":"cf_rolling_spr","order":24,"path":"sprites/cf_rolling_spr/cf_rolling_spr.yy",},
     {"name":"cf_fall_spr","order":3,"path":"sprites/cf_fall_spr/cf_fall_spr.yy",},
     {"name":"Credits","order":2,"path":"rooms/Credits/Credits.yy",},
+    {"name":"mn_mask","order":26,"path":"sprites/mn_mask/mn_mask.yy",},
     {"name":"obj_button_play","order":11,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"mn_winking_spr","order":5,"path":"sprites/mn_winking_spr/mn_winking_spr.yy",},
     {"name":"planet_spr","order":15,"path":"sprites/planet_spr/planet_spr.yy",},
