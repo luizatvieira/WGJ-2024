@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "ost_ost.mp3",
   "type": 0,
-  "volume": 0.75,
+  "volume": 0.5,
 }
