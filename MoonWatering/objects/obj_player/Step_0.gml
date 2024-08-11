@@ -1,7 +1,48 @@
-//Movement
 function win_game()
 {
+	is_falling = false;
+	is_jumping = true;
+	is_walking = false;
+	
 	move_towards_point(obj_luna.x, obj_luna.y, move_speed);
+	
+	if (obj_luna.x - x != 0) image_xscale = sign(move_x);
+}
+
+function check_movement_collisions ( _collided_objs )
+{
+	move_y = 0;
+	is_falling = false;
+	
+	// Moving down slopes
+	if ( 
+		!place_meeting(x+move_x, y+move_y, _collided_objs) && 
+		place_meeting(x+move_x, y+fall_speed, _collided_objs)
+	)
+	{
+		move_y = abs(move_x);
+		//move_x = 0;
+	}
+	
+	if (is_jumping)
+		move_y = -jump_speed;
+}
+
+function check_player_fall( _collided_objs )
+{
+	if ( place_meeting( x+move_x, y+move_y, _collided_objs ) )
+	{
+		check_movement_collisions(_collided_objs);
+	}
+	else if (move_y < 10)
+	{
+		move_y += fall_speed;
+	}
+	else
+	{
+		move_y += fall_speed;
+		is_falling = true;
+	}
 }
 
 function move_player()
@@ -16,37 +57,15 @@ function move_player()
 
 	is_walking = _right or _left;
 
-	if (place_meeting(x+move_x, y, obj_invisible_wall))
+	check_player_fall([obj_ground, obj_cloud]);
+	
+	if(place_meeting( x+move_x, y+move_y, obj_invisible_wall) )
 	{
 		move_x = 0;
 	}
 
-	if (place_meeting(x, y+move_y, obj_ground) || place_meeting(x, y+move_y, obj_cloud))
-	{
-		move_y = 0;
-		is_falling = false;
-	
-		// Moving down slopes
-		if (!place_meeting(x+move_x, y+move_y, obj_ground) && place_meeting(x+move_x, y+10, obj_ground))
-		{
-			move_y = abs(move_x);
-			move_x = 0;
-		}
-	
-		if (is_jumping)
-			move_y = -jump_speed;
-	}
-	else if (move_y < 10)
-	{
-		move_y += fall_speed;
-	}
-	else
-	{
-		move_y += fall_speed;
-		is_falling = true;
-	}
-
 	move_and_collide(move_x, move_y, obj_ground, 4, 0, 0, move_speed, -1);
+	if (move_x != 0) image_xscale = sign(move_x);
 }
 
 function water()
@@ -70,6 +89,7 @@ function water()
 	watering_cooldown = watering_cooldown - 1;
 }
 
+//Actual step code
 if (obj_luna.watering_percent == 100)
 {
 	win_game();
@@ -79,6 +99,3 @@ else
 	move_player();
 	water();
 }
-if (move_x != 0) image_xscale = sign(move_x);
-
-
