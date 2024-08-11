@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprite_invisible_wall",
-    "path": "sprites/sprite_invisible_wall/sprite_invisible_wall.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

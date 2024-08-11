@@ -6,6 +6,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -35,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_test_spr1",
-    "path": "sprites/_test_spr1/_test_spr1.yy",
+    "name": "mn_idle_spr",
+    "path": "sprites/mn_idle_spr/mn_idle_spr.yy",
   },
   "spriteMaskId": null,
   "visible": true,

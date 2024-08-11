@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_test_spr5",
-    "path": "sprites/_test_spr5/_test_spr5.yy",
+    "name": "water_spr_00",
+    "path": "sprites/water_spr_00/water_spr_00.yy",
   },
   "spriteMaskId": null,
   "visible": true,

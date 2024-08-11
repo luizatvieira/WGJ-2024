@@ -28,14 +28,14 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "_test_spr2",
-    "path": "sprites/_test_spr2/_test_spr2.yy",
+    "name": "planet_spr",
+    "path": "sprites/planet_spr/planet_spr.yy",
   },
   "spriteMaskId": {
-    "name": "_test_spr2",
-    "path": "sprites/_test_spr2/_test_spr2.yy",
+    "name": "planet_spr",
+    "path": "sprites/planet_spr/planet_spr.yy",
   },
   "visible": true,
 }

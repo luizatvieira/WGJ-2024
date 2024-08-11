@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_test_spr4",
-    "path": "sprites/_test_spr4/_test_spr4.yy",
+    "name": "planet_spr",
+    "path": "sprites/planet_spr/planet_spr.yy",
   },
   "spriteMaskId": null,
   "visible": true,
