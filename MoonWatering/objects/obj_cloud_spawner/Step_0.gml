@@ -1,8 +1,8 @@
 //Watering
 if ( spawn_cooldown < 1 )
 {
-	//var _random_spawn_chance = random(100) > 80;
-	//if ( _random_spawn_chance )
+	var _random_spawn_chance = random(100) > 80;
+	if ( _random_spawn_chance )
 	{
 		var _random_spawn_y = random( room_height/2 );
 		instance_create_layer( 

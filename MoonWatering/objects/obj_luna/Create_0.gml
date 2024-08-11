@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 move_speed = .3;
-jump_speed = 5;
+jump_speed = 2;
 fall_speed = .1;
 
 x_scale = image_xscale;

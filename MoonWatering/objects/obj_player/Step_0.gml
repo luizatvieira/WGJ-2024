@@ -2,32 +2,35 @@
 var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 
-var _jump = keyboard_check(vk_up) or keyboard_check(ord("W"));
+is_jumping = keyboard_check(vk_up) or keyboard_check(ord("W"));
 
 move_x = _right - _left;
 move_x *= move_speed;
+
+is_walking = _right or _left;
 
 if (place_meeting(x+move_x, y, obj_invisible_wall))
 {
 	move_x = 0;
 }
 
-if (place_meeting(x, y+move_speed, obj_ground) || place_meeting(x, y+move_speed, obj_cloud))
+if (place_meeting(x, y+move_y, obj_ground) || place_meeting(x, y+move_y, obj_cloud))
 {
 	move_y = 0;
 	
 	// Moving down slopes
-	if (!place_meeting(x+move_x, y+move_speed, obj_ground) && place_meeting(x+move_x, y+10, obj_ground))
+	if (!place_meeting(x+move_x, y+move_y, obj_ground) && place_meeting(x+move_x, y+10, obj_ground))
 	{
 		move_y = abs(move_x);
 		move_x = 0;
 	}
 	
-	if (_jump)
+	if (is_jumping)
 		move_y = -jump_speed;
 }
 else if (move_y < 10)
 {
+	is_falling = true;
 	move_y += fall_speed;
 }
 

@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "_test_spr1",
-    "path": "sprites/_test_spr1/_test_spr1.yy",
+    "name": "mn_idle_spr",
+    "path": "sprites/mn_idle_spr/mn_idle_spr.yy",
   },
   "spriteMaskId": null,
   "visible": true,
