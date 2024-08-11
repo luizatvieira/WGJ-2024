@@ -34,10 +34,10 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"obj_invisible_wall","path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},},
     {"id":{"name":"ParticleLoader","path":"scripts/ParticleLoader/ParticleLoader.yy",},},
     {"id":{"name":"_test_spr1","path":"sprites/_test_spr1/_test_spr1.yy",},},
     {"id":{"name":"obj_moon_orbit","path":"objects/obj_moon_orbit/obj_moon_orbit.yy",},},
+    {"id":{"name":"jumping_sfx_00","path":"sounds/jumping_sfx_00/jumping_sfx_00.yy",},},
     {"id":{"name":"_test_spr6","path":"sprites/_test_spr6/_test_spr6.yy",},},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},},
     {"id":{"name":"_test_spr4","path":"sprites/_test_spr4/_test_spr4.yy",},},
