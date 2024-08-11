@@ -8,7 +8,6 @@ function move_moon ( _obj )
 		if (!place_meeting(x+move_x, y+2, _obj) && place_meeting(x+move_x, y+10, _obj))
 		{
 				move_y = abs(move_x);
-				move_x = 0;
 		}
 	
 		var _jump = random(100) > 80;
@@ -27,14 +26,7 @@ function move_moon ( _obj )
 }
 
 move_x = move_speed;
-if ( watering_percent == 100 )
-{
-	move_moon( obj_ground );
-}
-else
-{
-	move_moon(obj_moon_orbit);
-}
+move_moon( [obj_ground, obj_moon_orbit] );
 
 if ( instance_exists(obj_player) )
 {

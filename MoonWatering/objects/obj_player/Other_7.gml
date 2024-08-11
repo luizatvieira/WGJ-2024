@@ -4,7 +4,16 @@ function play_random_step_sound()
 	audio_play_sound(_chosen_sfx, 0, false);
 }
 
-if ( sprite == walk_sprite)
+function play_jump_sound()
+{
+	audio_play_sound(jumping_sfx_00, 0, false);
+}
+
+if ( sprite == jump_sprite)
+{
+	play_jump_sound();
+}
+else if ( sprite == walk_sprite)
 {
 	play_random_step_sound();
 }
