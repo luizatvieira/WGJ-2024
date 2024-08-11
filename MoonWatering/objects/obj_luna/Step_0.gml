@@ -31,7 +31,7 @@ if ( _player_distance != 0 )
 
 if ( cooldown <= 0 )
 {
-	if ( random(100) > 80 )
+	if ( random(100) > 50 )
 	{
 		current_sprite = special_animation_sprites[random(array_length(special_animation_sprites))];
 	}

@@ -31,8 +31,12 @@ if (place_meeting(x, y+move_y, obj_ground) || place_meeting(x, y+move_y, obj_clo
 }
 else if (move_y < 10)
 {
-	is_falling = true;
 	move_y += fall_speed;
+}
+else
+{
+	move_y += fall_speed;
+	is_falling = true;
 }
 
 move_and_collide(move_x, move_y, obj_ground, 4, 0, 0, move_speed, -1);

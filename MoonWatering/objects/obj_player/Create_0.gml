@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 move_speed = 4;
-jump_speed = 16;
+jump_speed = 20;
 fall_speed = 1;
 
 watering_layer = "WateringLayer"
