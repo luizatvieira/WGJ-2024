@@ -21,3 +21,4 @@ draw_sprite(mn_mask, 0, x + ((sprite_width/2)*watering_percent/100), y - ((sprit
 //reset gpu_config
 gpu_set_alphatestenable(false);
 gpu_set_blendmode(bm_normal);
+draw_set_alpha(1);

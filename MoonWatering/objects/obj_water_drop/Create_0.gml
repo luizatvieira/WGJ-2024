@@ -4,7 +4,7 @@ function play_random_sound( _sound_array )
 	audio_play_sound(_chosen_sfx, 0, false);
 }
 
-watering_percent_add = 5;
+watering_percent_add = 1;
 
 possible_sprites = [water_spr_00, water_spr_01, water_spr_02]
 chosen_sprite = possible_sprites[random(array_length(possible_sprites))];
