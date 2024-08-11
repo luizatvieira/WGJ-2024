@@ -89,7 +89,7 @@ function water()
 	{
 		with (
 		instance_create_layer( 
-			x + (sprite_width/2), 
+			x + (sprite_width/8*5), 
 			y + (sprite_height/2) - 25, 
 			watering_layer,
 			obj_water_drop
@@ -111,4 +111,10 @@ else
 {
 	move_player();
 	water();
+}
+
+// Failsafe, not fall! 
+if (y > room_height + 128){
+	x = room_width/2;
+	y = 0;
 }
