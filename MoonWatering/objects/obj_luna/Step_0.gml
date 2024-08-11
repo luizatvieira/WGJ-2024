@@ -28,3 +28,14 @@ if ( x >= room_width + sprite_width/2)
 var _player_distance = x - obj_player.x;
 if ( _player_distance != 0 )
 	image_xscale = x_scale * sign(_player_distance);
+
+if ( cooldown <= 0 )
+{
+	if ( random(100) > 80 )
+	{
+		current_sprite = special_animation_sprites[random(array_length(special_animation_sprites))];
+	}
+	cooldown = special_animation_cooldown;
+}
+
+cooldown = cooldown -1;
