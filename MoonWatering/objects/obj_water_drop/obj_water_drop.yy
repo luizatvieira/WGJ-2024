@@ -34,6 +34,9 @@
     "name": "water_spr_00",
     "path": "sprites/water_spr_00/water_spr_00.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "water_spr_00",
+    "path": "sprites/water_spr_00/water_spr_00.yy",
+  },
   "visible": true,
 }

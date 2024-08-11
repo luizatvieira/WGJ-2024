@@ -21,8 +21,8 @@ function move_moon ( _obj )
 
 	if ( x >= room_width + (image_xscale * sprite_width/2) )
 	{
-		x = 0;
-		y = room_height/5;
+		x = 0-(image_xscale * sprite_width/2);
+		y = room_height/5 + irandom(64);
 	}
 }
 

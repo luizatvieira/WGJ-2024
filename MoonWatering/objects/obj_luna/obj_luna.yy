@@ -40,6 +40,9 @@
     "name": "mn_idle_spr",
     "path": "sprites/mn_idle_spr/mn_idle_spr.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "mn_idle_spr",
+    "path": "sprites/mn_idle_spr/mn_idle_spr.yy",
+  },
   "visible": true,
 }

@@ -1,4 +1,4 @@
-rotation_speed = 0.005;
+rotation_speed = 0.1;
 current_rotation = 0;
 
 sprite = planet_spr;

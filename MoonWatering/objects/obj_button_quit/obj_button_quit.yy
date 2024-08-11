@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "platform_cloud_spr_02",
-    "path": "sprites/platform_cloud_spr_02/platform_cloud_spr_02.yy",
+    "name": "button_spr",
+    "path": "sprites/button_spr/button_spr.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-move_speed = .3;
+move_speed = 4;
 jump_speed = 2;
 fall_speed = .1;
 

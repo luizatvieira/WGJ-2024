@@ -51,15 +51,20 @@ function move_player()
 
 function water()
 {
-	//Watering
+	//Watering 
+	// Hi! Added relative speed and direction to the water 
 	if ( watering_cooldown < 1 )
 	{
+		with (
 		instance_create_layer( 
 			x + (sprite_width/2), 
 			y + (sprite_height/2) - 25, 
 			watering_layer,
 			obj_water_drop
-		);
+		)){
+			vspeed = - irandom(8); // Adding jumpiness and randomness 
+			hspeed = other.move_speed*other.image_xscale;  // Lol, added direction speed
+		}
 		watering_cooldown = start_watering_cooldown;
 	}
 	watering_cooldown = watering_cooldown - 1;
