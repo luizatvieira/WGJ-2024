@@ -1,12 +1,12 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "planet_spr",
-  "bbox_bottom": 1008,
-  "bbox_left": 16,
+  "name": "planet_spr_backup",
+  "bbox_bottom": 1006,
+  "bbox_left": 17,
   "bbox_right": 1008,
-  "bbox_top": 16,
-  "bboxMode": 2,
+  "bbox_top": 17,
+  "bboxMode": 0,
   "collisionKind": 2,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -20,7 +20,6 @@
   "height": 1024,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2728f07a-62f5-4660-8c5c-d0be115c9020","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"55439efd-7b0e-487a-8c0d-8a404c834293","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
@@ -33,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "planet_spr",
+    "name": "planet_spr_backup",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"477c391e-e4d5-4def-b4ce-a8081eaa541d","path":"sprites/planet_spr/planet_spr.yy",},},},"Disabled":false,"id":"edad1239-71a0-488d-bc37-86217caf093f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"477c391e-e4d5-4def-b4ce-a8081eaa541d","path":"sprites/planet_spr_backup/planet_spr_backup.yy",},},},"Disabled":false,"id":"402a5924-c121-4d21-aa67-eb09285c0d6b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
