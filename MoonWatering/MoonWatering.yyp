@@ -67,6 +67,7 @@
     {"id":{"name":"platform_cloud_spr_00","path":"sprites/platform_cloud_spr_00/platform_cloud_spr_00.yy",},},
     {"id":{"name":"platform_cloud_spr_03","path":"sprites/platform_cloud_spr_03/platform_cloud_spr_03.yy",},},
     {"id":{"name":"stepping_sfx_01","path":"sounds/stepping_sfx_01/stepping_sfx_01.yy",},},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"stepping_sfx_00","path":"sounds/stepping_sfx_00/stepping_sfx_00.yy",},},
     {"id":{"name":"platform_cloud_spr_02","path":"sprites/platform_cloud_spr_02/platform_cloud_spr_02.yy",},},
     {"id":{"name":"cf_fall_spr","path":"sprites/cf_fall_spr/cf_fall_spr.yy",},},
@@ -75,10 +76,11 @@
     {"id":{"name":"planet_spr","path":"sprites/planet_spr/planet_spr.yy",},},
     {"id":{"name":"water_spr_02","path":"sprites/water_spr_02/water_spr_02.yy",},},
     {"id":{"name":"watering_sfx_02","path":"sounds/watering_sfx_02/watering_sfx_02.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

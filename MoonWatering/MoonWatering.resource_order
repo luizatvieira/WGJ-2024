@@ -48,6 +48,7 @@
     {"name":"platform_cloud_spr_00","order":8,"path":"sprites/platform_cloud_spr_00/platform_cloud_spr_00.yy",},
     {"name":"platform_cloud_spr_03","order":11,"path":"sprites/platform_cloud_spr_03/platform_cloud_spr_03.yy",},
     {"name":"stepping_sfx_01","order":4,"path":"sounds/stepping_sfx_01/stepping_sfx_01.yy",},
+    {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"stepping_sfx_00","order":2,"path":"sounds/stepping_sfx_00/stepping_sfx_00.yy",},
     {"name":"platform_cloud_spr_02","order":10,"path":"sprites/platform_cloud_spr_02/platform_cloud_spr_02.yy",},
     {"name":"cf_fall_spr","order":3,"path":"sprites/cf_fall_spr/cf_fall_spr.yy",},

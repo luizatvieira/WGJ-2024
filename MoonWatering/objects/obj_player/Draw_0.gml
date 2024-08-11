@@ -15,4 +15,4 @@ else
 	sprite = idle_sprite;
 }
 
-draw_sprite_ext( sprite, -1, x, y, image_xscale, image_yscale, 0, c_white, 1);
+draw_sprite_ext( sprite, -1, x, y, image_xscale, image_yscale, 0, sprite_color, 1);
