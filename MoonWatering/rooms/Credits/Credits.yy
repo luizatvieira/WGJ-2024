@@ -13,6 +13,7 @@
     {"name":"inst_1D49169B","path":"rooms/Credits/Credits.yy",},
     {"name":"inst_4E2B4DFF","path":"rooms/Credits/Credits.yy",},
     {"name":"inst_5BA42B93","path":"rooms/Credits/Credits.yy",},
+    {"name":"inst_7FD5430","path":"rooms/Credits/Credits.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -31,6 +32,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_credits_text","path":"objects/obj_credits_text/obj_credits_text.yy",},"propertyId":{"name":"roles_text","path":"objects/obj_credits_text/obj_credits_text.yy",},"value":"Game Design, Art & Sound    \\n@Panshios_",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5BA42B93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wgj_logo_BR","path":"objects/obj_wgj_logo_BR/obj_wgj_logo_BR.yy",},"properties":[],"rotation":0.0,"scaleX":0.060556203,"scaleY":0.060556203,"x":927.9999,"y":255.99997,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7FD5430","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wgj_logo_CL","path":"objects/obj_wgj_logo_CL/obj_wgj_logo_CL.yy",},"properties":[],"rotation":0.0,"scaleX":0.12,"scaleY":0.12,"x":1184.0,"y":256.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":5.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.5,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bg_stars_spr","path":"sprites/bg_stars_spr/bg_stars_spr.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294954239,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},

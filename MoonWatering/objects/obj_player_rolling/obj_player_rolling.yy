@@ -1,14 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_damageball",
+  "name": "obj_player_rolling",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_water_drop","path":"objects/obj_water_drop/obj_water_drop.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -33,12 +30,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "damageball_spr",
-    "path": "sprites/damageball_spr/damageball_spr.yy",
+    "name": "cf_rolling_spr",
+    "path": "sprites/cf_rolling_spr/cf_rolling_spr.yy",
   },
-  "spriteMaskId": {
-    "name": "damageball_spr",
-    "path": "sprites/damageball_spr/damageball_spr.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

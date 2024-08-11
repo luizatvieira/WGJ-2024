@@ -13,6 +13,14 @@ function ParticleLoader(){
 	part_type_orientation( global.pwater, 0, 360, 0, 0, false);
 	part_type_life( global.pwater, 18, 18);
 	
+	global.pdamage = part_type_create();
+	part_type_sprite( global.pdamage, pt_ballsplash_spr,1,1,0);
+	part_type_speed( global.pdamage, 0, 1, 0, 0);
+	part_type_direction( global.pdamage, 0, 360, 4, 0);
+	part_type_gravity( global.pdamage, 0, 270);
+	part_type_orientation( global.pdamage, 0, 360, 0, 0, false);
+	part_type_life( global.pdamage, 18, 18);
+	
 
 
 }
