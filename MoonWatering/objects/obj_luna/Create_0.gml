@@ -4,6 +4,8 @@ move_speed = .3;
 jump_speed = 2;
 fall_speed = .1;
 
+image_speed = .5;
+
 x_scale = image_xscale;
 
 move_x = 0;
