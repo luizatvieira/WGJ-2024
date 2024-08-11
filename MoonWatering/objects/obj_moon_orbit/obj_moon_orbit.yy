@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_moon_orbit",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "planet_spr",
-    "path": "sprites/planet_spr/planet_spr.yy",
+    "name": "planet_spr_old",
+    "path": "sprites/planet_spr_old/planet_spr_old.yy",
   },
   "spriteMaskId": null,
   "visible": true,

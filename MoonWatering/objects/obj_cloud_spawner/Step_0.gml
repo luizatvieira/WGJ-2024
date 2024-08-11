@@ -1,10 +1,10 @@
 //Watering
 if ( spawn_cooldown < 1 and obj_luna.watering_percent != 100 )
 {
-	var _random_spawn_chance = random(100) > 80;
+	var _random_spawn_chance = irandom(100) > 80;
 	if ( _random_spawn_chance )
 	{
-		var _random_spawn_y = 10 + random( room_height/2 );
+		var _random_spawn_y = 128 + irandom( room_height/2 );
 		instance_create_layer( 
 			0, 
 			_random_spawn_y, 
