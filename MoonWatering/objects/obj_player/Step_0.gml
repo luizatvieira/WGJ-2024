@@ -17,6 +17,7 @@ if (place_meeting(x+move_x, y, obj_invisible_wall))
 if (place_meeting(x, y+move_y, obj_ground) || place_meeting(x, y+move_y, obj_cloud))
 {
 	move_y = 0;
+	is_falling = false;
 	
 	// Moving down slopes
 	if (!place_meeting(x+move_x, y+move_y, obj_ground) && place_meeting(x+move_x, y+10, obj_ground))

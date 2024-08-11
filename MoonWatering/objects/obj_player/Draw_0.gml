@@ -1,8 +1,8 @@
-//if ( is_falling )
+if ( is_falling )
 {
-	//sprite = fall_sprite;
+	sprite = fall_sprite;
 }
- if (is_jumping)
+else if (is_jumping)
 {
 	sprite = jump_sprite
 }
