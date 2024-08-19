@@ -7,7 +7,7 @@ If you'd like to check out the game on itch, click [here](https://luizatorello.i
 
 If you want to hear more about the developers go ahead and check their socials ;)
 
-## Francisco Pan Pezoa [@Panshios_](href="https://x.com/Panshios_) [@Fishbowl Team](https://www.fishbowlteam.com/)
+## Francisco Pan Pezoa [@Panshios_]( href="https://x.com/Panshios_ ) [@Fishbowl Team](https://www.fishbowlteam.com/)
 Game Design, Art & Sound
 
 ## Luiza Torello Vieira [@luizatorello](https://x.com/luizatorello)
